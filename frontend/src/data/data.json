@@ -1,0 +1,410 @@
+{
+    "heroSlider": [
+        {
+            "id": 1,
+            "title": "Fresh Summer Produce",
+            "description": "Locally sourced fruits and vegetables at unbeatable prices",
+            "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "buttonText": "Shop Now",
+            "buttonLink": "/fruits-vegetables"
+        },
+        {
+            "id": 2,
+            "title": "Artisan Bakery",
+            "description": "Freshly baked bread and pastries made daily",
+            "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "buttonText": "View Selection",
+            "buttonLink": "/bakery"
+        },
+        {
+            "id": 3,
+            "title": "Free Delivery",
+            "description": "On orders over $50 - Same day delivery available",
+            "image": "https://images.unsplash.com/photo-1543352634-a1c51d9f1fa7",
+            "buttonText": "Learn More",
+            "buttonLink": "/delivery"
+        }
+    ],
+    "featuredProducts": [
+        {
+            "id": 101,
+            "name": "Organic Avocados",
+            "category": "Fruits & Vegetables",
+            "price": 2.99,
+            "salePrice": 1.99,
+            "unit": "each",
+            "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "badge": "Sale"
+        },
+        {
+            "id": 102,
+            "name": "Free-Range Eggs",
+            "category": "Dairy & Eggs",
+            "price": 4.99,
+            "salePrice": null,
+            "unit": "dozen",
+            "image": "https://images.unsplash.com/photo-1587486913049-53fc88980cfc?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "badge": "Organic"
+        },
+        {
+            "id": 103,
+            "name": "Sourdough Bread",
+            "category": "Bakery",
+            "price": 5.99,
+            "salePrice": 4.50,
+            "unit": "loaf",
+            "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "badge": "Fresh"
+        },
+        {
+            "id": 104,
+            "name": "Atlantic Salmon Fillet",
+            "category": "Meat & Seafood",
+            "price": 12.99,
+            "salePrice": 9.99,
+            "unit": "lb",
+            "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "badge": "Sale"
+        },
+        {
+            "id": 105,
+            "name": "Organic Strawberries",
+            "category": "Fruits & Vegetables",
+            "price": 4.99,
+            "salePrice": null,
+            "unit": "pack",
+            "image": "https://images.unsplash.com/photo-1518635017498-87f514b751ba?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "badge": "Local"
+        },
+        {
+            "id": 106,
+            "name": "Grass-Fed Ground Beef",
+            "category": "Meat & Seafood",
+            "price": 7.99,
+            "salePrice": 6.99,
+            "unit": "lb",
+            "image": "https://images.unsplash.com/photo-1551028150-64b9f398f678?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "badge": "Sale"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Fruits & Vegetables",
+            "image": "https://images.unsplash.com/photo-1610348725531-843dff563e2c?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "href": "/fruits-vegetables",
+            "itemCount": 152
+        },
+        {
+            "id": 2,
+            "name": "Dairy & Eggs",
+            "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "href": "/dairy-eggs",
+            "itemCount": 87
+        },
+        {
+            "id": 3,
+            "name": "Bakery",
+            "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "href": "/bakery",
+            "itemCount": 63
+        },
+        {
+            "id": 4,
+            "name": "Meat & Seafood",
+            "image": "https://images.unsplash.com/photo-1623265300797-4a3541e29a60?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "href": "/meat-seafood",
+            "itemCount": 94
+        }
+    ],
+    "weeklySpecials": [
+        {
+            "id": 201,
+            "title": "Two for Tuesday",
+            "description": "Buy one, get one free on all berries",
+            "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "validUntil": "2025-04-14",
+            "discount": "50",
+            "price": 4.99,
+            "originalPrice": 9.98
+        },
+        {
+            "id": 202,
+            "title": "Weekend Special",
+            "description": "20% off all fresh baked goods",
+            "image": "https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "validUntil": "2025-04-13",
+            "discount": "20",
+            "price": 7.99,
+            "originalPrice": 9.99
+        },
+        {
+            "id": 203,
+            "title": "Seafood Friday",
+            "description": "15% off all seafood items",
+            "image": "https://images.unsplash.com/photo-1579783483458-83d02161294e?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "validUntil": "2025-04-11",
+            "discount": "15",
+            "price": 16.99,
+            "originalPrice": 19.99
+        }
+    ],
+    "deliveryOptions": [
+        {
+            "id": 1,
+            "name": "Home Delivery",
+            "description": "Same day delivery for orders placed before 2pm",
+            "image": "https://images.unsplash.com/photo-1580674285054-bed31e145f59?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "fee": "Free on orders over $50",
+            "buttonText": "Schedule Delivery",
+            "buttonLink": "/delivery"
+        },
+        {
+            "id": 2,
+            "name": "Curbside Pickup",
+            "description": "Order online and pick up in just 2 hours",
+            "image": "https://images.unsplash.com/photo-1613243555988-441166d4d6fd?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "fee": "Free",
+            "buttonText": "Schedule Pickup",
+            "buttonLink": "/pickup"
+        }
+    ],
+    "quickShoppingLists": [
+        {
+            "id": 1,
+            "name": "Weekly Essentials",
+            "items": [
+                "Milk",
+                "Eggs",
+                "Bread",
+                "Bananas",
+                "Coffee"
+            ],
+            "image": "https://images.unsplash.com/photo-1553546895-531931aa1aa8?ixlib=rb-1.2.1&auto=format&fit=crop"
+        },
+        {
+            "id": 2,
+            "name": "Healthy Snacks",
+            "items": [
+                "Greek Yogurt",
+                "Mixed Nuts",
+                "Berries",
+                "Hummus",
+                "Carrots"
+            ],
+            "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-1.2.1&auto=format&fit=crop"
+        },
+        {
+            "id": 3,
+            "name": "Weekend BBQ",
+            "items": [
+                "Steaks",
+                "Burger Patties",
+                "Buns",
+                "Corn",
+                "Potato Salad"
+            ],
+            "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&auto=format&fit=crop"
+        }
+    ],
+    "recipes": [
+        {
+            "id": 301,
+            "title": "Avocado Toast with Poached Eggs",
+            "difficulty": "Easy",
+            "prepTime": "15 minutes",
+            "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "ingredients": [
+                "Sourdough Bread",
+                "Avocados",
+                "Eggs",
+                "Cherry Tomatoes",
+                "Red Pepper Flakes"
+            ],
+            "link": "/recipes/avocado-toast"
+        },
+        {
+            "id": 302,
+            "title": "Grilled Salmon with Lemon-Dill Sauce",
+            "difficulty": "Medium",
+            "prepTime": "30 minutes",
+            "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-1.2.1&auto=format&fit=crop",
+            "ingredients": [
+                "Salmon Fillets",
+                "Lemons",
+                "Fresh Dill",
+                "Greek Yogurt",
+                "Garlic"
+            ],
+            "link": "/recipes/grilled-salmon"
+        },
+        {
+            "id": 303,
+            "title": "Summer Berry Smoothie Bowl",
+            "difficulty": "Easy",
+            "prepTime": "10 minutes",
+            "image": "https://images.unsplash.com/photo-1621797350488-fb28c9217e3b?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                "Mixed Berries",
+                "Banana",
+                "Greek Yogurt",
+                "Almond Milk",
+                "Honey"
+            ],
+            "link": "/recipes/berry-smoothie-bowl"
+        }
+    ],
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "Sarah Johnson",
+            "text": "The quality of produce is exceptional! I love the weekly delivery service and the seasonal specials.",
+            "rating": 5,
+            "date": "2025-03-28",
+            "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop"
+        },
+        {
+            "id": 2,
+            "name": "Michael Chen",
+            "text": "Curbside pickup has been a game-changer for our family. Order online and ready in just a couple of hours!",
+            "rating": 5,
+            "date": "2025-04-01",
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop"
+        },
+        {
+            "id": 3,
+            "name": "Emily Rodriguez",
+            "text": "The bakery section is outstanding. Fresh bread daily and those pastries are irresistible!",
+            "rating": 4,
+            "date": "2025-03-22",
+            "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop"
+        }
+    ],
+    "storeLocations": [
+        {
+            "id": 1,
+            "name": "Downtown Market",
+            "address": "123 Main Street, Cityville, ST 12345",
+            "phone": "(555) 123-4567",
+            "hours": "8am - 9pm Daily",
+            "mapLink": "https://maps.example.com/downtown"
+        },
+        {
+            "id": 2,
+            "name": "Westside Grocery",
+            "address": "456 Oak Avenue, Cityville, ST 12346",
+            "phone": "(555) 987-6543",
+            "hours": "7am - 10pm Daily",
+            "mapLink": "https://maps.example.com/westside"
+        },
+        {
+            "id": 3,
+            "name": "Northside Market",
+            "address": "789 Pine Road, Cityville, ST 12347",
+            "phone": "(555) 456-7890",
+            "hours": "8am - 8pm Daily",
+            "mapLink": "https://maps.example.com/northside"
+        }
+    ],
+    "footerLinks": {
+        "customer": [
+            {
+                "name": "My Account",
+                "href": "/account"
+            },
+            {
+                "name": "Order History",
+                "href": "/orders"
+            },
+            {
+                "name": "Shopping Lists",
+                "href": "/lists"
+            },
+            {
+                "name": "Gift Cards",
+                "href": "/gift-cards"
+            }
+        ],
+        "information": [
+            {
+                "name": "About Us",
+                "href": "/about"
+            },
+            {
+                "name": "Careers",
+                "href": "/careers"
+            },
+            {
+                "name": "Store Locations",
+                "href": "/locations"
+            },
+            {
+                "name": "Sustainability",
+                "href": "/sustainability"
+            }
+        ],
+        "policies": [
+            {
+                "name": "Terms & Conditions",
+                "href": "/terms"
+            },
+            {
+                "name": "Privacy Policy",
+                "href": "/privacy"
+            },
+            {
+                "name": "Return Policy",
+                "href": "/returns"
+            },
+            {
+                "name": "Accessibility",
+                "href": "/accessibility"
+            }
+        ],
+        "help": [
+            {
+                "name": "FAQs",
+                "href": "/faqs"
+            },
+            {
+                "name": "Contact Us",
+                "href": "/contact"
+            },
+            {
+                "name": "Shipping Information",
+                "href": "/shipping"
+            },
+            {
+                "name": "Product Recalls",
+                "href": "/recalls"
+            }
+        ]
+    },
+    "newsletter": {
+        "title": "Sign up for our newsletter",
+        "description": "Get the latest deals, recipes, and product updates delivered to your inbox.",
+        "buttonText": "Subscribe"
+    },
+    "socialMedia": [
+        {
+            "name": "Facebook",
+            "href": "https://facebook.com",
+            "icon": "facebook"
+        },
+        {
+            "name": "Instagram",
+            "href": "https://instagram.com",
+            "icon": "instagram"
+        },
+        {
+            "name": "Twitter",
+            "href": "https://twitter.com",
+            "icon": "twitter"
+        },
+        {
+            "name": "Pinterest",
+            "href": "https://pinterest.com",
+            "icon": "pinterest"
+        }
+    ]
+}
